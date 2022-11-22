@@ -1,0 +1,13 @@
+name = "WynnLib"
+filename = "wynnlib-0.2.8.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/e7tR8Lcc/versions/BkvL3mUr/wynnlib-0.2.8.jar"
+hash-format = "sha1"
+hash = "8025b3749dc674c085655c84b6c7e786611f1edb"
+
+[update]
+[update.modrinth]
+mod-id = "e7tR8Lcc"
+version = "BkvL3mUr"

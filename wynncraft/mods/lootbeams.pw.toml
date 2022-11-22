@@ -1,0 +1,13 @@
+name = "lootbeams"
+filename = "lootbeams-2.0.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/DHxukCC2/versions/2.0.4/lootbeams-2.0.4.jar"
+hash-format = "sha1"
+hash = "6cd80831b1241320f3bf25ae5361d0d998bdf7bd"
+
+[update]
+[update.modrinth]
+mod-id = "DHxukCC2"
+version = "kqJ3Dv9O"

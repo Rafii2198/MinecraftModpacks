@@ -1,0 +1,11 @@
+playAllSoundsOnPlayer = false
+word = "gzog6zilzq6zxlt"
+logMissingLines = true
+anonymous = false
+sendFunFact = false
+hasChosenLineReport = true
+tripleQuestionMarkInessentiel = 200.0
+tripleQuestionMarkMaxDistance = 50.0
+blockCutOff = 4
+highlightSpeaker = true
+npcFinderThingMaxDistanceChangeBeforeCacheInvalid = 0.5

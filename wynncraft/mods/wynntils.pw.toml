@@ -1,0 +1,13 @@
+name = "Wynntils"
+filename = "wynntils-0.0.1-alpha.68-quilt.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/dU5Gb9Ab/versions/vNingCdl/wynntils-0.0.1-alpha.68-quilt.jar"
+hash-format = "sha1"
+hash = "579ba1de969731db9970aea5f71f04d7f6dac70c"
+
+[update]
+[update.modrinth]
+mod-id = "dU5Gb9Ab"
+version = "vNingCdl"

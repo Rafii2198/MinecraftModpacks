@@ -1,0 +1,186 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
+  action = movebutton
+  y = 23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_options_button
+  x = 24
+  action = movebutton
+  y = 23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_realms_button
+  x = 0
+  action = movebutton
+  y = 23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:modmenu_titlescreen_mods_button
+  x = 0
+  action = movebutton
+  y = 23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_options_button
+  x = 0
+  action = movebutton
+  y = 23
+}
+
+customization {
+  identifier = %id=604322%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 203
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 4
+  action = movebutton
+  y = 97
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 0
+  action = movebutton
+  y = 23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 102
+  action = movebutton
+  y = 23
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 262
+  action = deep_customization_element:title_screen_branding
+  actionid = 7416c6f7-95d0-494b-999b-82b95c8d5c5c1665688900716
+  y = 327
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 0cc0401d-2aa8-4ece-bc9b-c5f5e2b165601665688900723
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = d31dcfbf-02bc-490b-910d-df25004d9dc01665688900724
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 2a16dfad-0670-4fb5-b4ae-0c6206c6fba31665688900724
+  y = 0
+  height = 30
+}
+
+customization {
+  path = menu_assets/logo.png
+  orientation = top-left
+  x = 5
+  width = 201
+  action = addtexture
+  actionid = f1463df2-072d-4c55-a790-98b3097615021665691079247
+  y = 30
+  height = 38
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = %realtimehour%:%realtimeminute%:%realtimesecond%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = f1463df2-072d-4c55-a790-98b3097615021665691079247
+  x = -1
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 69eb8d56-4235-47dd-9e2e-f0e1a610673e1665787869828
+  y = 48
+  alignment = centered
+  height = 42
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 556
+  slim = false
+  actionid = 52dbb9a0-4710-4f71-ae10-5adaeb3413dd1665788073786
+  action = addentity
+  y = 246
+  scale = 80
+  playername = %playername%
+  parrot = false
+}
+
