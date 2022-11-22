@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/.puzzle_cache/mojangstudios.png"
-hash = "27b2ea2946ca5b00841ce7d1813b42dfb7e36b12ad50c7c9bea09053ac226cf3"
-
-[[files]]
 file = "config/WynnLib/Settings.json"
 hash = "ca84d273e54e10d0291b71eaedfd3347a9770d889187282e26f60755cada29bd"
 
@@ -451,11 +447,6 @@ hash = "ebd5bd0ecd016ec3de22588c908d712310338f3bbcd4891aff04923fb83f6a09"
 metafile = true
 
 [[files]]
-file = "mods/fabric-api.pw.toml"
-hash = "8cf5324d7ab4e2080d3abb786acdc1a2f4fa0a139d296ae056db321362edff77"
-metafile = true
-
-[[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "2d6dd083a7b01b1035a52c09a088137b930ea6f0f8f28ae3e0ba23f05937e3ef"
 metafile = true
@@ -641,8 +632,9 @@ hash = "99f9628800ccabd189b9bb28859f01caaf9ad672f247ae875e3eaa5f965f9406"
 metafile = true
 
 [[files]]
-file = "mods/voicesofwynn.pk.toml"
+file = "mods/voicesofwynn.pw.toml"
 hash = "c433d50564432f97fd066a992a5b01e196655a96be14e1223f6d095bc0028896"
+metafile = true
 
 [[files]]
 file = "mods/wavey-capes.pw.toml"
